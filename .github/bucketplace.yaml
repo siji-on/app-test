@@ -1,9 +1,9 @@
 version: 1
 labels:
   - name: team/ss
-    color: #cccccc
+    color: CCCCCC
     paths: 
-      - *
+      - "*"
 
 pull-request-size:
   XS:
