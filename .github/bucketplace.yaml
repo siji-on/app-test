@@ -4,6 +4,14 @@ labels:
     color: 3CBF00
     paths: 
       - "*"
+  - name: team/aa
+    color: 5D9801
+    paths:
+      - "data/"
+  - name: team/bb
+    color: A14C05
+    paths:
+      - "README.*"      
 
 pull-request-size:
   XS:
