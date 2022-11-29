@@ -7,7 +7,7 @@ labels:
   - name: team/aa
     color: 5D9801
     paths:
-      - "data/"
+      - "data/*"
   - name: team/bb
     color: A14C05
     paths:
