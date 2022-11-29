@@ -1,5 +1,7 @@
 version: 1
 labels:
+  - name: T1
+    color: E50009
   - name: team/ss
     color: 3CBF01
     paths: 
