@@ -1,7 +1,7 @@
 version: 1
 labels:
   - name: team/ss
-    color: 3CBF00
+    color: 3CBF01
     paths: 
       - "*"
   - name: team/aa
