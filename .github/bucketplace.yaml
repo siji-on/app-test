@@ -1,5 +1,4 @@
-version: 1
-labels:
+labeler:
   - name: T1
     color: E50009
   - name: team/ss
