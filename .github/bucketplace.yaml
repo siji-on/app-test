@@ -3,13 +3,38 @@ labeler:
     color: 112233
   - name: team/ss
     color: 3CBF01
-    paths: 
+    paths:
       - "*"
   - name: team/aa
     color: 5D9801
     paths:
-      - "data/*"
+      - data/*
   - name: team/bb
     color: A14C05
     paths:
-      - "README.*"      
+      - README.*
+pull-request-size:
+  XS:
+    name: size/XS
+    lines: 0
+    color: "047157"
+  S:
+    name: size/S
+    lines: 10
+    color: 3A7929
+  M:
+    name: size/M
+    lines: 40
+    color: 1146C9
+  L:
+    name: size/L
+    lines: 100
+    color: CF5302
+  XL:
+    name: size/XL
+    lines: 500
+    color: 123456
+  XXL:
+    name: size/XXL
+    lines: 1000
+    color: E50009
