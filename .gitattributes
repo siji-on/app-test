@@ -1,1 +1,2 @@
 *.yml linguist-vendored
+m linguist-generated=true
