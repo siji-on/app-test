@@ -18,3 +18,5 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: echo "ACTIONS_CACHE [ $ACTIONS_CACHE_URL ]"
       - run: env
+      - run: pwd
+      - run: java --version
