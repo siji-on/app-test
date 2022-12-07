@@ -7,6 +7,6 @@ on:
 jobs:
   dev-build-and-push:
     name: Dev build and push
-      steps:
-        - run: echo "test"
+    steps:
+      - run: echo "test"
 
