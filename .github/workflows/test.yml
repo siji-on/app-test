@@ -1,0 +1,12 @@
+name: approve test
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  dev-build-and-push:
+    name: Dev build and push
+      steps:
+        - run: echo "test"
+
