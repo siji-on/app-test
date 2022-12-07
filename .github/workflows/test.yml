@@ -7,6 +7,31 @@ on:
 jobs:
   dev-build-and-push:
     name: Dev build and push
+    runs-on: ubuntu-latest
     steps:
       - run: echo "test"
+  deploy-dev:
+    name: Dev deploy
+    runs-on: ubuntu-latest
+    needs: [dev-build-and-push]
+    steps:
+      - run: echo "deploy-dev"
+  stage-build-and-push:
+    environment: stage
+    name: Stage build and push
+    runs-on: ubuntu-latest
+    needs: [deploy-dev]
+    steps:
+      - run: echo "test"
+  deploy-stage:
+    name: Stage deploy
+    environment: stage
+    runs-on: ubuntu-latest
+    needs: [stage-build-and-push]
+    steps:
+      - run: echo "deploy-dev"
+
+
+
+
 
